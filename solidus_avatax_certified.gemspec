@@ -28,7 +28,6 @@ Gem::Specification.new do |s|
   s.add_dependency 'json', '~> 2.0'
   s.add_dependency 'logging', '~> 2.0'
   s.add_dependency 'solidus', solidus_version
-  s.add_dependency 'solidus_support', '~> 0.3.2'
 
   s.add_development_dependency 'capybara'
   s.add_development_dependency 'coffee-rails'
@@ -37,11 +36,12 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'ffaker'
   s.add_development_dependency 'github_changelog_generator'
   s.add_development_dependency 'rspec-rails', '~> 4.0.0.beta2'
-  s.add_development_dependency 'rubocop'
+  s.add_development_dependency 'rubocop', '~> 0.76.0'
   s.add_development_dependency 'rubocop-rspec'
   s.add_development_dependency 'sass-rails'
   s.add_development_dependency 'shoulda-matchers'
   s.add_development_dependency 'simplecov'
+  s.add_development_dependency 'solidus_dev_support'
   s.add_development_dependency 'vcr'
   s.add_development_dependency 'webdrivers'
   s.add_development_dependency 'webmock'
